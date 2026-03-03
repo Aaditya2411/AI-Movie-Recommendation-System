@@ -103,12 +103,18 @@ Localhost
 
 👨‍💻 Author
 
-Aaditya Kumar Singh
+Aaditya Kumar Singh @Aaditya2411
+
 Naveen Kumar @Tf141Naveen
+
 Keti Aditya @Keti23Aditya
+
 Nikhil Raj @nikhilraj475
+
 Madhusmita Behera @madhusmita1042
+
 Samridhi Sinha @samridhi5-cmd
+
 
 B.Tech CSE (AI & DS)
 
