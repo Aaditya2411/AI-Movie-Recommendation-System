@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import requests
 import os
+import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 import ast
@@ -47,16 +48,11 @@ st.markdown("""
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("movies_metadata.csv", low_memory=False)
-    df = df[['title','overview','genres','vote_average']]
-    df.dropna(inplace=True)
-    
-    # Reduce dataset size to prevent memory issues
-    df = df.head(10000)
-    
+    df = pickle.load(open("movies.pkl", "rb"))
     return df
 
 movies = load_data()
+
 
 # -----------------------------
 # GENRE CLEANING
@@ -173,4 +169,5 @@ if st.button("Recommend"):
             with cols[i % 3]:
                 st.image(poster, use_container_width=True)
                 st.markdown(f"**{row['title']}**")
+
                 st.markdown(f"<div class='rating'> {rating}</div>", unsafe_allow_html=True)
