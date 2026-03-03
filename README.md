@@ -1,6 +1,7 @@
 
 
 🎬 AI Movie Recommendation System
+
 📌 Overview
 
 The AI Movie Recommendation System is a content-based recommendation engine that suggests movies based on similarity in movie overviews.
@@ -10,19 +11,31 @@ The web interface is built using Streamlit and integrates movie posters using th
 🚀 Features
 
 🎥 Movie-based recommendations
+
 🎭 Genre filtering
+
 ⭐ Movie ratings display
+
 🖼️ Dynamic poster fetching via TMDB API
+
 ⚡ Fast similarity computation using TF-IDF
+
 🌐 Clean interactive UI
 
 🧠 How It Works
+
 1. Movie metadata is preprocessed and stored in movies.pkl
+   
 2. Overview text is converted into TF-IDF vectors
+   
 3. Cosine similarity is calculated dynamically
+   
 4. Top similar movies are displayed with:
+   
 Poster
+
 Title
+
 Rating
 
 ------------------
@@ -32,10 +45,15 @@ Rating
 Technology	Purpose
 
 Python	Core Programming
+
 Pandas	Data Handling
+
 NumPy	Numerical Operations
+
 Scikit-learn	TF-IDF & Similarity
+
 Streamlit	Web Interface
+
 TMDB API	Movie Posters
 
 
@@ -80,9 +98,13 @@ streamlit run app.py
 To fetch movie posters:
 
 1. Create an account on TMDB
+   
 2. Generate your API key
+   
 3. Replace in app.py:
+   
 TMDB_API_KEY = "your_api_key_here"
+
 --------------
 
 🌍 Deployment
