@@ -104,11 +104,11 @@ Localhost
 👨‍💻 Author
 
 Aaditya Kumar Singh
-Naveen Kumar
-Keti Aditya
-Nikhil Raj
-Madhusmita Behera
-Samridhi Sinha
+Naveen Kumar @Tf141Naveen
+Keti Aditya @Keti23Aditya
+Nikhil Raj @nikhilraj475
+Madhusmita Behera @madhusmita1042
+Samridhi Sinha @samridhi5-cmd
 
 B.Tech CSE (AI & DS)
 
