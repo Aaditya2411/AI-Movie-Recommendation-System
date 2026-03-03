@@ -123,19 +123,16 @@ Localhost
 
 ---
 
-👨‍💻 Author
+## 👥 Team Members
 
-Aaditya Kumar Singh @Aaditya2411
+- *Madhusmita Behera* - @madhusmita1042  
+- *Samridhi Sinha* - @samridhi5-cmd  
+- *Naveen Cgu* - @Tf141Naveen  
+- *Keti Cgu* - @Keti23Aditya  
+- *Nikhil Cgu* - @nikhilraj475  
+- *Aaditya Kumar Singh* - @Aaditya2411 
 
-Naveen Kumar @Tf141Naveen
-
-Keti Aditya @Keti23Aditya
-
-Nikhil Raj @nikhilraj475
-
-Madhusmita Behera @madhusmita1042
-
-Samridhi Sinha @samridhi5-cmd
+---
 
 
 B.Tech CSE (AI & DS)
